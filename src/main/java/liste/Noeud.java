@@ -5,7 +5,7 @@ public class Noeud {
     private Noeud suivant;
 
     public Noeud(int e, Noeud suivant) {
-        element = e;
+        element = e;//
         this.suivant = suivant;
     }
 
