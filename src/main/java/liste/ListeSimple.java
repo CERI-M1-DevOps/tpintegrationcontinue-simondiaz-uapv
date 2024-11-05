@@ -55,7 +55,9 @@ public class ListeSimple {
         sb.append(")");
         return sb.toString();
     }
-
+    /**
+     * @param element Objet qui représente l'élément à supprimer
+     */
     public void supprimePremier(Object element) {
         if (tete != null) {
             if (tete.getElement() == element) {
