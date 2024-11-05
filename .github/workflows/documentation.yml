@@ -1,4 +1,4 @@
-name: Generate and Deploy JavaDoc
+name: generation of JavaDoc
 
 on:
   pull_request:
