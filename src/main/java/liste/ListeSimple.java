@@ -4,15 +4,28 @@ public class ListeSimple {
     private long size;
     Noeud tete;
 
+    /**
+     * Description de la méthode
+     * @return Retourne la taille de la liste
+     */
     public long getSize() {
         return size;
     }
 
+    /**
+     * Description de la méthode
+     * @param element Entier qui représente l'élément à ajouter
+     */
     public void ajout(int element) {
         tete = new Noeud(element, tete);
         size++;
     }
 
+    /**
+     * Description de la méthode
+     * @param element objet qui représente l'élément de la liste
+     * @param nouvelleValeur Objet qui représente la nouvelle valeur de l'élément
+     */
     public void modifiePremier(Object element, Object nouvelleValeur) {
         Noeud courant = tete;
         while (courant != null && courant.getElement() != element)
